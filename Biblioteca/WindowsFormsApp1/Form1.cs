@@ -16,5 +16,29 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void BtnEntrar_Click(object sender, EventArgs e)
+        {
+            
+           
+                if (TxbUsuario.Text == "UsuarioEpn" && TxbContraseña.Text == "2412855" )
+                {
+                    MessageBox.Show("Sesion iniciada correctamente");
+                }
+                
+                else
+                {
+                MessageBox.Show("Nombre de usuario o contraseña incorrecta ");
+
+                TxbUsuario.Text ="";
+                TxbContraseña.Text = "";    
+            }
+
+
+            
+
+
+
+        }
     }
 }
