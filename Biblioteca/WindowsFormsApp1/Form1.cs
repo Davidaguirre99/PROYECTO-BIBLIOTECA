@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
            
                 if (TxbUsuario.Text == "UsuarioEpn" && TxbContraseña.Text == "2412855" )
                 {
-<<<<<<< HEAD
+
                     MessageBox.Show("Sesion iniciada correctamente");
 
                 this.Hide();
@@ -32,11 +32,8 @@ namespace WindowsFormsApp1
 
                 NuevaVentana.Show();
 
-=======
-                 MessageBox.Show("Sesion iniciada correctamente");
-                //this.Hide();
-                
->>>>>>> 6115d6127986e14a6a95f42ecd2ea9365f7748af
+
+
                 }
                 
                 else
