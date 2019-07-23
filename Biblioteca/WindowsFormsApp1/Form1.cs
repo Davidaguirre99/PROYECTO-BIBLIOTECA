@@ -50,5 +50,10 @@ namespace WindowsFormsApp1
 
 
         }
+
+        private void TxbUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

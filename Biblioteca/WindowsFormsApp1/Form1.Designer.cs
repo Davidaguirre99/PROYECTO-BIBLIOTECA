@@ -31,15 +31,17 @@
             this.BtnEntrar = new System.Windows.Forms.Button();
             this.TxbUsuario = new System.Windows.Forms.TextBox();
             this.TxbContraseña = new System.Windows.Forms.TextBox();
-            this.Usuario = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // BtnEntrar
             // 
-            this.BtnEntrar.Location = new System.Drawing.Point(306, 86);
+            this.BtnEntrar.FlatAppearance.BorderSize = 0;
+            this.BtnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEntrar.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnEntrar.Location = new System.Drawing.Point(290, 241);
             this.BtnEntrar.Name = "BtnEntrar";
-            this.BtnEntrar.Size = new System.Drawing.Size(121, 38);
+            this.BtnEntrar.Size = new System.Drawing.Size(408, 40);
             this.BtnEntrar.TabIndex = 0;
             this.BtnEntrar.Text = "Entrar";
             this.BtnEntrar.UseVisualStyleBackColor = true;
@@ -47,49 +49,53 @@
             // 
             // TxbUsuario
             // 
-            this.TxbUsuario.Location = new System.Drawing.Point(133, 56);
+            this.TxbUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.TxbUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxbUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxbUsuario.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TxbUsuario.Location = new System.Drawing.Point(336, 111);
             this.TxbUsuario.Name = "TxbUsuario";
-            this.TxbUsuario.Size = new System.Drawing.Size(141, 20);
+            this.TxbUsuario.Size = new System.Drawing.Size(321, 20);
             this.TxbUsuario.TabIndex = 1;
+            this.TxbUsuario.Text = "USUARIO";
+            this.TxbUsuario.TextChanged += new System.EventHandler(this.TxbUsuario_TextChanged);
             // 
             // TxbContraseña
             // 
-            this.TxbContraseña.Location = new System.Drawing.Point(133, 138);
+            this.TxbContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.TxbContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxbContraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxbContraseña.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.TxbContraseña.Location = new System.Drawing.Point(336, 167);
             this.TxbContraseña.Name = "TxbContraseña";
-            this.TxbContraseña.PasswordChar = '*';
-            this.TxbContraseña.Size = new System.Drawing.Size(141, 20);
+            this.TxbContraseña.Size = new System.Drawing.Size(321, 20);
             this.TxbContraseña.TabIndex = 2;
+            this.TxbContraseña.Text = "CONTRASEÑA";
             // 
-            // Usuario
+            // panel1
             // 
-            this.Usuario.AutoSize = true;
-            this.Usuario.Location = new System.Drawing.Point(46, 56);
-            this.Usuario.Name = "Usuario";
-            this.Usuario.Size = new System.Drawing.Size(43, 13);
-            this.Usuario.TabIndex = 3;
-            this.Usuario.Text = "Usuario";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Contraseña";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(191)))), ((int)(((byte)(57)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(213, 330);
+            this.panel1.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(214)))), ((int)(((byte)(156)))));
-            this.ClientSize = new System.Drawing.Size(465, 233);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Usuario);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.ClientSize = new System.Drawing.Size(780, 330);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.TxbContraseña);
             this.Controls.Add(this.TxbUsuario);
             this.Controls.Add(this.BtnEntrar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Logeate";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -101,8 +107,7 @@
         private System.Windows.Forms.Button BtnEntrar;
         private System.Windows.Forms.TextBox TxbUsuario;
         private System.Windows.Forms.TextBox TxbContraseña;
-        private System.Windows.Forms.Label Usuario;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
