@@ -23,8 +23,9 @@ namespace WindowsFormsApp1
            
                 if (TxbUsuario.Text == "UsuarioEpn" && TxbContraseña.Text == "2412855" )
                 {
-                    MessageBox.Show("Sesion iniciada correctamente");
-                //this.hide();esconde la anterior cuadro de texto o ventana
+                 MessageBox.Show("Sesion iniciada correctamente");
+                //this.Hide();
+                
                 }
                 
                 else
