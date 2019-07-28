@@ -90,7 +90,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(213, 330);
+            this.panel1.Size = new System.Drawing.Size(177, 330);
             this.panel1.TabIndex = 3;
             // 
             // pictureBox1
