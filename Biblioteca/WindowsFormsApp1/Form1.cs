@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -70,6 +70,13 @@ namespace WindowsFormsApp1
         {
             this.WindowState = FormWindowState.Minimized;
 
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+           ventanaRegistro ventanaRegistro = new ventanaRegistro();
+            ventanaRegistro.Show();
         }
     }
 }
