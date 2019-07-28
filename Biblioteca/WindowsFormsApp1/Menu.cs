@@ -71,5 +71,65 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximo.Visible = false;
+            btnRestaurar.Visible = true;
+           
+            
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRestaurar.Visible = false;
+            btnMaximo.Visible = true;
+        }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_2(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRestart.Visible = false;
+            btnmax.Visible = true;
+        }
+
+        private void pictureBox3_Click_3(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnmax.Visible = false;
+            btnRestart.Visible = true;
+        }
     }
 }

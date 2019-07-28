@@ -76,7 +76,7 @@
             // 
             this.btnMaximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximo.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximo.Image")));
-            this.btnMaximo.Location = new System.Drawing.Point(397, 3);
+            this.btnMaximo.Location = new System.Drawing.Point(314, 0);
             this.btnMaximo.Name = "btnMaximo";
             this.btnMaximo.Size = new System.Drawing.Size(21, 19);
             this.btnMaximo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
