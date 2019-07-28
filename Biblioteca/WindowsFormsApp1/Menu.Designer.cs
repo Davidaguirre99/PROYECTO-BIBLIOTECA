@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.barraVertical = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -66,9 +67,14 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.PBcerrar = new System.Windows.Forms.PictureBox();
+            this.PBminimizar = new System.Windows.Forms.PictureBox();
             this.barraVertical.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panelContenedor.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBcerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PBminimizar)).BeginInit();
             this.SuspendLayout();
             // 
             // barraVertical
@@ -417,11 +423,36 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel7.Controls.Add(this.PBminimizar);
+            this.panel7.Controls.Add(this.PBcerrar);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(931, 25);
             this.panel7.TabIndex = 0;
+            // 
+            // PBcerrar
+            // 
+            this.PBcerrar.Image = ((System.Drawing.Image)(resources.GetObject("PBcerrar.Image")));
+            this.PBcerrar.Location = new System.Drawing.Point(902, 0);
+            this.PBcerrar.Name = "PBcerrar";
+            this.PBcerrar.Size = new System.Drawing.Size(26, 25);
+            this.PBcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PBcerrar.TabIndex = 5;
+            this.PBcerrar.TabStop = false;
+            this.PBcerrar.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
+            // PBminimizar
+            // 
+            this.PBminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PBminimizar.Image = ((System.Drawing.Image)(resources.GetObject("PBminimizar.Image")));
+            this.PBminimizar.Location = new System.Drawing.Point(870, 0);
+            this.PBminimizar.Name = "PBminimizar";
+            this.PBminimizar.Size = new System.Drawing.Size(35, 25);
+            this.PBminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PBminimizar.TabIndex = 6;
+            this.PBminimizar.TabStop = false;
+            this.PBminimizar.Click += new System.EventHandler(this.PBminimizar_Click);
             // 
             // Menu
             // 
@@ -440,6 +471,9 @@
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.panelContenedor.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PBcerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PBminimizar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -484,5 +518,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.PictureBox PBcerrar;
+        private System.Windows.Forms.PictureBox PBminimizar;
     }
 }
