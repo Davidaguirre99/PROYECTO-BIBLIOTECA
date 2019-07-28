@@ -31,42 +31,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.barraVertical = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.busToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuariosAdultosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuariosMenoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuariosDestacadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.insertarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.librosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.recomendacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.autoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.masLeidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sobreBVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opinionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.recomendacionesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.inconformidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.felicitacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.librosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bibliotecaVirtualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelContenedor = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panelNombreApp = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.barradeTitulos = new System.Windows.Forms.Panel();
+            this.btnRestaurar = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.PBcerrar = new System.Windows.Forms.PictureBox();
             this.PBminimizar = new System.Windows.Forms.PictureBox();
             this.barraVertical.SuspendLayout();
@@ -75,28 +55,139 @@
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBminimizar)).BeginInit();
+=======
+            this.btnMaximo = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnRestart = new System.Windows.Forms.PictureBox();
+            this.btnmax = new System.Windows.Forms.PictureBox();
+            this.barraVertical.SuspendLayout();
+            this.panelNombreApp.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnmax)).BeginInit();
+>>>>>>> eb518c07b4947e76f53f296a941884c12ca8a66d
             this.SuspendLayout();
             // 
             // barraVertical
             // 
-            this.barraVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(191)))), ((int)(((byte)(57)))));
-            this.barraVertical.Controls.Add(this.panel6);
+            this.barraVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
+            this.barraVertical.Controls.Add(this.panel10);
             this.barraVertical.Controls.Add(this.panel5);
             this.barraVertical.Controls.Add(this.button6);
-            this.barraVertical.Controls.Add(this.panel4);
             this.barraVertical.Controls.Add(this.button5);
             this.barraVertical.Controls.Add(this.panel3);
-            this.barraVertical.Controls.Add(this.panel2);
+            this.barraVertical.Controls.Add(this.panel1);
             this.barraVertical.Controls.Add(this.button4);
             this.barraVertical.Controls.Add(this.button3);
-            this.barraVertical.Controls.Add(this.panel1);
             this.barraVertical.Controls.Add(this.button2);
-            this.barraVertical.Controls.Add(this.button1);
+            this.barraVertical.Controls.Add(this.panelNombreApp);
             this.barraVertical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barraVertical.Location = new System.Drawing.Point(0, 0);
+            this.barraVertical.Location = new System.Drawing.Point(0, 27);
             this.barraVertical.Name = "barraVertical";
-            this.barraVertical.Size = new System.Drawing.Size(271, 386);
+            this.barraVertical.Size = new System.Drawing.Size(288, 572);
             this.barraVertical.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel5.ForeColor = System.Drawing.Color.White;
+            this.panel5.Location = new System.Drawing.Point(0, 320);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 31);
+            this.panel5.TabIndex = 8;
+            // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(12, 320);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(268, 31);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "  Ciencia Ficción";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(12, 259);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(268, 31);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Guerras";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(12, 379);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(268, 31);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Terror";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(12, 212);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(268, 31);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Aventura";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.ForeColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(0, 376);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(10, 31);
+            this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button2
             // 
@@ -107,258 +198,120 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // panelNombreApp
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(3, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(268, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Romance";
-            this.button1.UseVisualStyleBackColor = false;
+            this.panelNombreApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panelNombreApp.Controls.Add(this.pictureBox1);
+            this.panelNombreApp.Controls.Add(this.label1);
+            this.panelNombreApp.Location = new System.Drawing.Point(0, 0);
+            this.panelNombreApp.Name = "panelNombreApp";
+            this.panelNombreApp.Size = new System.Drawing.Size(288, 197);
+            this.panelNombreApp.TabIndex = 0;
             // 
-            // menuStrip2
+            // pictureBox1
             // 
-            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.usuariosToolStripMenuItem,
-            this.librosToolStripMenuItem,
-            this.opinionToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 24);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(187, 24);
-            this.menuStrip2.TabIndex = 2;
-            this.menuStrip2.Text = "menuStrip2";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(25, 43);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(221, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_2);
             // 
-            // usuariosToolStripMenuItem
+            // label1
             // 
-            this.usuariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.controlToolStripMenuItem,
-            this.agregarToolStripMenuItem,
-            this.eliminarToolStripMenuItem,
-            this.insertarToolStripMenuItem});
-            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(47, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(183, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Biblioteca Virtual";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // controlToolStripMenuItem
+            // barradeTitulos
             // 
-            this.controlToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.busToolStripMenuItem,
-            this.usuariosAdultosToolStripMenuItem,
-            this.usuariosMenoresToolStripMenuItem,
-            this.usuariosDestacadosToolStripMenuItem});
-            this.controlToolStripMenuItem.Name = "controlToolStripMenuItem";
-            this.controlToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.controlToolStripMenuItem.Text = "Control";
+            this.barradeTitulos.Location = new System.Drawing.Point(0, 0);
+            this.barradeTitulos.Name = "barradeTitulos";
+            this.barradeTitulos.Size = new System.Drawing.Size(200, 100);
+            this.barradeTitulos.TabIndex = 0;
             // 
-            // busToolStripMenuItem
+            // btnRestaurar
             // 
-            this.busToolStripMenuItem.Name = "busToolStripMenuItem";
-            this.busToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.busToolStripMenuItem.Text = "Cantidad Usuarios";
+            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
+            this.btnRestaurar.Location = new System.Drawing.Point(1247, 3);
+            this.btnRestaurar.Name = "btnRestaurar";
+            this.btnRestaurar.Size = new System.Drawing.Size(21, 19);
+            this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnRestaurar.TabIndex = 7;
+            this.btnRestaurar.TabStop = false;
+            this.btnRestaurar.Visible = false;
+            this.btnRestaurar.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // usuariosAdultosToolStripMenuItem
+            // btnMinimizar
             // 
-            this.usuariosAdultosToolStripMenuItem.Name = "usuariosAdultosToolStripMenuItem";
-            this.usuariosAdultosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.usuariosAdultosToolStripMenuItem.Text = "Usuarios Adultos";
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(1217, 3);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(24, 19);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnMinimizar.TabIndex = 6;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // usuariosMenoresToolStripMenuItem
+            // btnCerrar
             // 
-            this.usuariosMenoresToolStripMenuItem.Name = "usuariosMenoresToolStripMenuItem";
-            this.usuariosMenoresToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.usuariosMenoresToolStripMenuItem.Text = "Usuarios Menores";
+            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
+            this.btnCerrar.Location = new System.Drawing.Point(1277, 3);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(20, 19);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnCerrar.TabIndex = 5;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // usuariosDestacadosToolStripMenuItem
+            // panel7
             // 
-            this.usuariosDestacadosToolStripMenuItem.Name = "usuariosDestacadosToolStripMenuItem";
-            this.usuariosDestacadosToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.usuariosDestacadosToolStripMenuItem.Text = "Usuarios Destacados";
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel7.Controls.Add(this.btnmax);
+            this.panel7.Controls.Add(this.btnRestart);
+            this.panel7.Controls.Add(this.pictureBox4);
+            this.panel7.Controls.Add(this.pictureBox2);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1300, 24);
+            this.panel7.TabIndex = 0;
             // 
-            // agregarToolStripMenuItem
+            // btnMaximo
             // 
-            this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.agregarToolStripMenuItem.Text = "Agregar";
-            // 
-            // eliminarToolStripMenuItem
-            // 
-            this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.eliminarToolStripMenuItem.Text = "Eliminar";
-            // 
-            // insertarToolStripMenuItem
-            // 
-            this.insertarToolStripMenuItem.Name = "insertarToolStripMenuItem";
-            this.insertarToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.insertarToolStripMenuItem.Text = "Insertar";
-            // 
-            // librosToolStripMenuItem
-            // 
-            this.librosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.recomendacionesToolStripMenuItem,
-            this.autoresToolStripMenuItem,
-            this.masLeidosToolStripMenuItem,
-            this.sobreBVToolStripMenuItem});
-            this.librosToolStripMenuItem.Name = "librosToolStripMenuItem";
-            this.librosToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.librosToolStripMenuItem.Text = "Ayuda";
-            // 
-            // recomendacionesToolStripMenuItem
-            // 
-            this.recomendacionesToolStripMenuItem.Name = "recomendacionesToolStripMenuItem";
-            this.recomendacionesToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.recomendacionesToolStripMenuItem.Text = "Busqueda Avanzada";
-            this.recomendacionesToolStripMenuItem.Click += new System.EventHandler(this.recomendacionesToolStripMenuItem_Click);
-            // 
-            // autoresToolStripMenuItem
-            // 
-            this.autoresToolStripMenuItem.Name = "autoresToolStripMenuItem";
-            this.autoresToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.autoresToolStripMenuItem.Text = "Libros Recomendados";
-            // 
-            // masLeidosToolStripMenuItem
-            // 
-            this.masLeidosToolStripMenuItem.Name = "masLeidosToolStripMenuItem";
-            this.masLeidosToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.masLeidosToolStripMenuItem.Text = "Libros Mas Leidos";
-            // 
-            // sobreBVToolStripMenuItem
-            // 
-            this.sobreBVToolStripMenuItem.Name = "sobreBVToolStripMenuItem";
-            this.sobreBVToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.sobreBVToolStripMenuItem.Text = "Sobre B.V.";
-            // 
-            // opinionToolStripMenuItem
-            // 
-            this.opinionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.recomendacionesToolStripMenuItem1,
-            this.inconformidadesToolStripMenuItem,
-            this.felicitacionesToolStripMenuItem,
-            this.calificarToolStripMenuItem});
-            this.opinionToolStripMenuItem.Name = "opinionToolStripMenuItem";
-            this.opinionToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.opinionToolStripMenuItem.Text = "Opinion";
-            // 
-            // recomendacionesToolStripMenuItem1
-            // 
-            this.recomendacionesToolStripMenuItem1.Name = "recomendacionesToolStripMenuItem1";
-            this.recomendacionesToolStripMenuItem1.Size = new System.Drawing.Size(171, 22);
-            this.recomendacionesToolStripMenuItem1.Text = "Recomendaciones";
-            // 
-            // inconformidadesToolStripMenuItem
-            // 
-            this.inconformidadesToolStripMenuItem.Name = "inconformidadesToolStripMenuItem";
-            this.inconformidadesToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.inconformidadesToolStripMenuItem.Text = "Inconformidades";
-            // 
-            // felicitacionesToolStripMenuItem
-            // 
-            this.felicitacionesToolStripMenuItem.Name = "felicitacionesToolStripMenuItem";
-            this.felicitacionesToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.felicitacionesToolStripMenuItem.Text = "Felicitaciones";
-            // 
-            // calificarToolStripMenuItem
-            // 
-            this.calificarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.librosToolStripMenuItem1,
-            this.bibliotecaVirtualToolStripMenuItem});
-            this.calificarToolStripMenuItem.Name = "calificarToolStripMenuItem";
-            this.calificarToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.calificarToolStripMenuItem.Text = "Calificar";
-            // 
-            // librosToolStripMenuItem1
-            // 
-            this.librosToolStripMenuItem1.Name = "librosToolStripMenuItem1";
-            this.librosToolStripMenuItem1.Size = new System.Drawing.Size(163, 22);
-            this.librosToolStripMenuItem1.Text = "Libros";
-            // 
-            // bibliotecaVirtualToolStripMenuItem
-            // 
-            this.bibliotecaVirtualToolStripMenuItem.Name = "bibliotecaVirtualToolStripMenuItem";
-            this.bibliotecaVirtualToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.bibliotecaVirtualToolStripMenuItem.Text = "Biblioteca Virtual";
-            // 
-            // panelContenedor
-            // 
-            this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.panelContenedor.Controls.Add(this.panel7);
-            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(271, 0);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(931, 386);
-            this.panelContenedor.TabIndex = 4;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.ForeColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(0, 113);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(10, 31);
-            this.panel1.TabIndex = 0;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(3, 163);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(268, 31);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Aventura";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(3, 212);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(268, 31);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Terror";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel2.ForeColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(0, 163);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 31);
-            this.panel2.TabIndex = 5;
+            this.btnMaximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximo.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximo.Image")));
+            this.btnMaximo.Location = new System.Drawing.Point(1247, 3);
+            this.btnMaximo.Name = "btnMaximo";
+            this.btnMaximo.Size = new System.Drawing.Size(21, 19);
+            this.btnMaximo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMaximo.TabIndex = 8;
+            this.btnMaximo.TabStop = false;
+            this.btnMaximo.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel3.ForeColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(0, 212);
+            this.panel3.Location = new System.Drawing.Point(0, 259);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(10, 31);
             this.panel3.TabIndex = 6;
             // 
+<<<<<<< HEAD
             // button5
             // 
             this.button5.FlatAppearance.BorderSize = 0;
@@ -430,6 +383,76 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(931, 25);
             this.panel7.TabIndex = 0;
+=======
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Maroon;
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel9.Location = new System.Drawing.Point(286, 27);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1014, 572);
+            this.panel9.TabIndex = 3;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel10.ForeColor = System.Drawing.Color.White;
+            this.panel10.Location = new System.Drawing.Point(0, 212);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(10, 31);
+            this.panel10.TabIndex = 9;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1277, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 19);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(1220, 2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 19);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // btnRestart
+            // 
+            this.btnRestart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestart.Image = ((System.Drawing.Image)(resources.GetObject("btnRestart.Image")));
+            this.btnRestart.Location = new System.Drawing.Point(1250, 2);
+            this.btnRestart.Name = "btnRestart";
+            this.btnRestart.Size = new System.Drawing.Size(21, 19);
+            this.btnRestart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnRestart.TabIndex = 8;
+            this.btnRestart.TabStop = false;
+            this.btnRestart.Visible = false;
+            this.btnRestart.Click += new System.EventHandler(this.pictureBox3_Click_2);
+            // 
+            // btnmax
+            // 
+            this.btnmax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnmax.Image = ((System.Drawing.Image)(resources.GetObject("btnmax.Image")));
+            this.btnmax.Location = new System.Drawing.Point(1250, 3);
+            this.btnmax.Name = "btnmax";
+            this.btnmax.Size = new System.Drawing.Size(21, 19);
+            this.btnmax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnmax.TabIndex = 11;
+            this.btnmax.TabStop = false;
+            this.btnmax.Click += new System.EventHandler(this.pictureBox3_Click_3);
+>>>>>>> eb518c07b4947e76f53f296a941884c12ca8a66d
             // 
             // PBcerrar
             // 
@@ -459,66 +482,76 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1202, 386);
-            this.Controls.Add(this.panelContenedor);
+            this.ClientSize = new System.Drawing.Size(1300, 600);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.barraVertical);
-            this.Controls.Add(this.menuStrip2);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
             this.Text = "Menu";
             this.barraVertical.ResumeLayout(false);
+<<<<<<< HEAD
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.panelContenedor.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PBcerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PBminimizar)).EndInit();
+=======
+            this.panelNombreApp.ResumeLayout(false);
+            this.panelNombreApp.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnmax)).EndInit();
+>>>>>>> eb518c07b4947e76f53f296a941884c12ca8a66d
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
+
         private System.Windows.Forms.Panel barraVertical;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem controlToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem busToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usuariosAdultosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usuariosMenoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usuariosDestacadosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eliminarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem insertarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem librosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem recomendacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem autoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem masLeidosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sobreBVToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem opinionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem recomendacionesToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem inconformidadesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem felicitacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem calificarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem librosToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem bibliotecaVirtualToolStripMenuItem;
-        private System.Windows.Forms.Panel panelContenedor;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+
+        private System.Windows.Forms.PictureBox btnCerrar;
+        private System.Windows.Forms.PictureBox btnMinimizar;
+        private System.Windows.Forms.PictureBox btnRestaurar;
+        private System.Windows.Forms.PictureBox btnMaximo;
+
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
+        
+        private System.Windows.Forms.Panel panelNombreApp;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.Panel panel1;
+
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
+<<<<<<< HEAD
         private System.Windows.Forms.PictureBox PBcerrar;
         private System.Windows.Forms.PictureBox PBminimizar;
+=======
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel barradeTitulos;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox btnRestart;
+        private System.Windows.Forms.PictureBox btnmax;
+>>>>>>> eb518c07b4947e76f53f296a941884c12ca8a66d
     }
 }
