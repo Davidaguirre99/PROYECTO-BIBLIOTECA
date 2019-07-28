@@ -40,7 +40,31 @@ namespace WindowsFormsApp1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Normal;
+            btnRestaurar.Visible = false;
+            btnMaximo.Visible = true;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
             this.WindowState = FormWindowState.Maximized;
+            btnMaximo.Visible = false;
+            btnRestaurar.Visible = true;
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+
         }
     }
 }
