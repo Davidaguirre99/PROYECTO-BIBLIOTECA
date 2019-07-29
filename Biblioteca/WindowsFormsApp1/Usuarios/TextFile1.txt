@@ -1,1 +1,1 @@
-﻿Registro de Usuarios 
+Nombres:Gabriel Andres Apellidos:Gabo Andres Clave:1234 Confirmacion:1234 Fecha de Nacimiento:06112016
