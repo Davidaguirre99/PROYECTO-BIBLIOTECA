@@ -14,7 +14,6 @@ namespace WindowsFormsApp1
     public partial class Menu : Form
     {
         public Menu()
-
         {
             InitializeComponent();
         }
@@ -135,6 +134,7 @@ namespace WindowsFormsApp1
             this.WindowState = FormWindowState.Maximized;
             btnmax.Visible = false;
             btnRestart.Visible = true;
+
         }
 
         private void btnSalirUsuario_Click(object sender, EventArgs e)

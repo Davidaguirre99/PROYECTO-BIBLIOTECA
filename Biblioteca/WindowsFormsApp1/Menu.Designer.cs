@@ -1,7 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
     partial class Menu
-
     {
         /// <summary>
         /// Required designer variable.
@@ -601,11 +600,17 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
 
-        private System.Windows.Forms.Panel panel1;
 
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button BtnAgregarLibro;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button5;
+
         private System.Windows.Forms.Panel panel7;
 
         private System.Windows.Forms.PictureBox PBcerrar;
@@ -629,6 +634,7 @@
         private System.Windows.Forms.Button btnUusariosActualizar;
         private System.Windows.Forms.Button btnUsuariosEliminar;
         private System.Windows.Forms.Button btnUsuarios;
+
 
     }
 }
