@@ -103,6 +103,11 @@ namespace WindowsFormsApp1
 
         }
 
-        
+        private void btnRegistrarse_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ventanaRegistro registrar = new ventanaRegistro();
+            registrar.Show();
+        }
     }
 }
