@@ -84,7 +84,7 @@ namespace WindowsFormsApp1
             // 
             // barraVertical
             // 
-            this.barraVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
+            this.barraVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(191)))), ((int)(((byte)(57)))));
             this.barraVertical.Controls.Add(this.panel8);
             this.barraVertical.Controls.Add(this.btnUsuarios);
             this.barraVertical.Controls.Add(this.btnHistoria);
@@ -544,7 +544,7 @@ namespace WindowsFormsApp1
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.Maroon;
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
             this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel9.Location = new System.Drawing.Point(288, 25);
             this.panel9.Name = "panel9";
