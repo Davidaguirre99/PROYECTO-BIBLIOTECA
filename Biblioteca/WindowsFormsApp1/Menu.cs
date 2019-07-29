@@ -164,20 +164,9 @@ namespace WindowsFormsApp1
         
         }
 
-        private void btnUsuarios_Click(object sender, EventArgs e)
-        {
-            panel8.Visible = true;
-        }
-
-        private void btnUsuariosEliminar_Click(object sender, EventArgs e)
-        {
-            panel8.Visible = false;
-        }
-
-        private void btnUusariosActualizar_Click(object sender, EventArgs e)
-        {
-            panel8.Visible = false;
-        }
+        
+       
+       
         private void AbrirFormHija(Object formhija)
         {
             if (this.panel9.Controls.Count>0)
@@ -205,6 +194,11 @@ namespace WindowsFormsApp1
         private void btnHistoria_Click(object sender, EventArgs e)
         {
             AbrirFormHija(new Historia());
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

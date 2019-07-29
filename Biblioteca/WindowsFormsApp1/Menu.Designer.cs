@@ -32,28 +32,11 @@ namespace WindowsFormsApp1
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.barraVertical = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.btnUusariosActualizar = new System.Windows.Forms.Button();
-            this.btnUsuariosEliminar = new System.Windows.Forms.Button();
-            this.btnUsuarios = new System.Windows.Forms.Button();
-            this.btnHistoria = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.btnSalirUsuario = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.btnComedia = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panelNombreApp = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.barradeTitulos = new System.Windows.Forms.Panel();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
@@ -66,10 +49,14 @@ namespace WindowsFormsApp1
             this.PBcerrar = new System.Windows.Forms.PictureBox();
             this.btnMaximo = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.barraVertical.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panelNombreApp.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -85,20 +72,16 @@ namespace WindowsFormsApp1
             // barraVertical
             // 
             this.barraVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(191)))), ((int)(((byte)(57)))));
-            this.barraVertical.Controls.Add(this.panel8);
-            this.barraVertical.Controls.Add(this.btnUsuarios);
-            this.barraVertical.Controls.Add(this.btnHistoria);
             this.barraVertical.Controls.Add(this.panel4);
-            this.barraVertical.Controls.Add(this.btnSalirUsuario);
-            this.barraVertical.Controls.Add(this.panel2);
-            this.barraVertical.Controls.Add(this.panel10);
-            this.barraVertical.Controls.Add(this.panel5);
-            this.barraVertical.Controls.Add(this.button6);
-            this.barraVertical.Controls.Add(this.button5);
             this.barraVertical.Controls.Add(this.panel3);
             this.barraVertical.Controls.Add(this.panel1);
             this.barraVertical.Controls.Add(this.button4);
-            this.barraVertical.Controls.Add(this.btnComedia);
+            this.barraVertical.Controls.Add(this.button3);
+            this.barraVertical.Controls.Add(this.button1);
+            this.barraVertical.Controls.Add(this.btnSalirUsuario);
+            this.barraVertical.Controls.Add(this.panel2);
+            this.barraVertical.Controls.Add(this.panel5);
+            this.barraVertical.Controls.Add(this.button6);
             this.barraVertical.Controls.Add(this.button2);
             this.barraVertical.Controls.Add(this.panelNombreApp);
             this.barraVertical.Dock = System.Windows.Forms.DockStyle.Left;
@@ -106,125 +89,6 @@ namespace WindowsFormsApp1
             this.barraVertical.Name = "barraVertical";
             this.barraVertical.Size = new System.Drawing.Size(288, 600);
             this.barraVertical.TabIndex = 0;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.panel12);
-            this.panel8.Controls.Add(this.panel11);
-            this.panel8.Controls.Add(this.btnUusariosActualizar);
-            this.panel8.Controls.Add(this.btnUsuariosEliminar);
-            this.panel8.Location = new System.Drawing.Point(3, 489);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(282, 60);
-            this.panel8.TabIndex = 16;
-            this.panel8.Visible = false;
-            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel12.ForeColor = System.Drawing.Color.White;
-            this.panel12.Location = new System.Drawing.Point(0, 35);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(10, 22);
-            this.panel12.TabIndex = 18;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel11.ForeColor = System.Drawing.Color.White;
-            this.panel11.Location = new System.Drawing.Point(0, 7);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(10, 22);
-            this.panel11.TabIndex = 17;
-            // 
-            // btnUusariosActualizar
-            // 
-            this.btnUusariosActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
-            this.btnUusariosActualizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnUusariosActualizar.FlatAppearance.BorderSize = 0;
-            this.btnUusariosActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.btnUusariosActualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.btnUusariosActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUusariosActualizar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUusariosActualizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUusariosActualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUusariosActualizar.Location = new System.Drawing.Point(11, 31);
-            this.btnUusariosActualizar.Name = "btnUusariosActualizar";
-            this.btnUusariosActualizar.Size = new System.Drawing.Size(260, 26);
-            this.btnUusariosActualizar.TabIndex = 16;
-            this.btnUusariosActualizar.Text = "Actualizar";
-            this.btnUusariosActualizar.UseVisualStyleBackColor = false;
-            this.btnUusariosActualizar.Click += new System.EventHandler(this.btnUusariosActualizar_Click);
-            // 
-            // btnUsuariosEliminar
-            // 
-            this.btnUsuariosEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
-            this.btnUsuariosEliminar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnUsuariosEliminar.FlatAppearance.BorderSize = 0;
-            this.btnUsuariosEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.btnUsuariosEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.btnUsuariosEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsuariosEliminar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuariosEliminar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUsuariosEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuariosEliminar.Location = new System.Drawing.Point(11, 3);
-            this.btnUsuariosEliminar.Name = "btnUsuariosEliminar";
-            this.btnUsuariosEliminar.Size = new System.Drawing.Size(260, 26);
-            this.btnUsuariosEliminar.TabIndex = 15;
-            this.btnUsuariosEliminar.Text = "Eliminar";
-            this.btnUsuariosEliminar.UseVisualStyleBackColor = false;
-            this.btnUsuariosEliminar.Click += new System.EventHandler(this.btnUsuariosEliminar_Click);
-            // 
-            // btnUsuarios
-            // 
-            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
-            this.btnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnUsuarios.FlatAppearance.BorderSize = 0;
-            this.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsuarios.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuarios.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuarios.Location = new System.Drawing.Point(12, 460);
-            this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(268, 31);
-            this.btnUsuarios.TabIndex = 14;
-            this.btnUsuarios.Text = "Usuarios";
-            this.btnUsuarios.UseVisualStyleBackColor = false;
-            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
-            // 
-            // btnHistoria
-            // 
-            this.btnHistoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
-            this.btnHistoria.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnHistoria.FlatAppearance.BorderSize = 0;
-            this.btnHistoria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.btnHistoria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.btnHistoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistoria.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistoria.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnHistoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistoria.Location = new System.Drawing.Point(17, 404);
-            this.btnHistoria.Name = "btnHistoria";
-            this.btnHistoria.Size = new System.Drawing.Size(268, 31);
-            this.btnHistoria.TabIndex = 13;
-            this.btnHistoria.Text = "Historia";
-            this.btnHistoria.UseVisualStyleBackColor = false;
-            this.btnHistoria.Click += new System.EventHandler(this.btnHistoria_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel4.ForeColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(0, 404);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 31);
-            this.panel4.TabIndex = 12;
             // 
             // btnSalirUsuario
             // 
@@ -257,118 +121,15 @@ namespace WindowsFormsApp1
             this.panel2.Size = new System.Drawing.Size(10, 31);
             this.panel2.TabIndex = 10;
             // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel10.ForeColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(0, 212);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(10, 31);
-            this.panel10.TabIndex = 9;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel5.ForeColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(0, 310);
+            this.panel5.Location = new System.Drawing.Point(0, 141);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 31);
+            this.panel5.Size = new System.Drawing.Size(14, 38);
             this.panel5.TabIndex = 8;
-            // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(3, 310);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(268, 31);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "  Ciencia Ficción";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(3, 258);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(268, 31);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Guerras";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel3.ForeColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(0, 259);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 31);
-            this.panel3.TabIndex = 6;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.ForeColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(0, 367);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(10, 31);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(14, 367);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(268, 31);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Terror";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // btnComedia
-            // 
-            this.btnComedia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
-            this.btnComedia.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnComedia.FlatAppearance.BorderSize = 0;
-            this.btnComedia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
-            this.btnComedia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.btnComedia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComedia.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComedia.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnComedia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnComedia.Location = new System.Drawing.Point(12, 209);
-            this.btnComedia.Name = "btnComedia";
-            this.btnComedia.Size = new System.Drawing.Size(268, 31);
-            this.btnComedia.TabIndex = 3;
-            this.btnComedia.Text = "Comedia";
-            this.btnComedia.UseVisualStyleBackColor = false;
-            this.btnComedia.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -381,37 +142,11 @@ namespace WindowsFormsApp1
             // 
             // panelNombreApp
             // 
-            this.panelNombreApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panelNombreApp.Controls.Add(this.pictureBox1);
-            this.panelNombreApp.Controls.Add(this.label1);
+            this.panelNombreApp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
             this.panelNombreApp.Location = new System.Drawing.Point(0, 0);
             this.panelNombreApp.Name = "panelNombreApp";
-            this.panelNombreApp.Size = new System.Drawing.Size(288, 197);
+            this.panelNombreApp.Size = new System.Drawing.Size(288, 25);
             this.panelNombreApp.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(25, 43);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(221, 151);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_2);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(47, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Biblioteca Virtual";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // barradeTitulos
             // 
@@ -552,6 +287,102 @@ namespace WindowsFormsApp1
             this.panel9.TabIndex = 3;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(14, 141);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(274, 38);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Agregar Libro";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(14, 205);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(274, 38);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Borrar Libro";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(14, 277);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(274, 38);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Agregar Usuario";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(14, 356);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(274, 41);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Ver usuario";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.ForeColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(0, 205);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(14, 38);
+            this.panel1.TabIndex = 9;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel3.ForeColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(0, 277);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(14, 38);
+            this.panel3.TabIndex = 9;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel4.ForeColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(3, 356);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(14, 38);
+            this.panel4.TabIndex = 9;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -566,10 +397,6 @@ namespace WindowsFormsApp1
             this.Name = "Menu";
             this.Text = "Menu";
             this.barraVertical.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panelNombreApp.ResumeLayout(false);
-            this.panelNombreApp.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
@@ -594,25 +421,14 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.PictureBox btnRestaurar;
         private System.Windows.Forms.PictureBox btnMaximo;
-
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button btnComedia;
         
         private System.Windows.Forms.Panel panelNombreApp;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
 
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button BtnAgregarLibro;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
-        private Button button6;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button5;
 
        // private System.Windows.Forms.Panel panel7;
 
@@ -620,7 +436,6 @@ namespace WindowsFormsApp1
 
       //  private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel barradeTitulos;
-        private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -628,16 +443,12 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.PictureBox btnmax;
 
         private System.Windows.Forms.Button btnSalirUsuario;
-       // private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnHistoria;
-        //private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Button btnUusariosActualizar;
-        private System.Windows.Forms.Button btnUsuariosEliminar;
-        private System.Windows.Forms.Button btnUsuarios;
-
-
+        private Panel panel4;
+        private Panel panel3;
+        private Panel panel1;
+        private Button button4;
+        private Button button3;
+        private Button button1;
+        private Button button6;
     }
 }
