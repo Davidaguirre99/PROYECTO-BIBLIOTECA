@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿using System.Windows.Forms;
+
+namespace WindowsFormsApp1
 {
     partial class Menu
     {
@@ -608,14 +610,15 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
+        private Button button6;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button5;
 
-        private System.Windows.Forms.Panel panel7;
+       // private System.Windows.Forms.Panel panel7;
 
         private System.Windows.Forms.PictureBox PBcerrar;
 
-        private System.Windows.Forms.Panel panel3;
+      //  private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel barradeTitulos;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
@@ -625,9 +628,9 @@
         private System.Windows.Forms.PictureBox btnmax;
 
         private System.Windows.Forms.Button btnSalirUsuario;
-        private System.Windows.Forms.Panel panel2;
+       // private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnHistoria;
-        private System.Windows.Forms.Panel panel4;
+        //private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel11;
