@@ -24,23 +24,22 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+            this.Close();
+
             this.WindowState = FormWindowState.Normal;
             btnRestaurar.Visible = false;
             btnMaximo.Visible = true;
@@ -66,11 +65,16 @@ namespace WindowsFormsApp1
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
 
+
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void PBminimizar_Click(object sender, EventArgs e)
         {
+
             AbrirFormHija(new Comedia());
+
+            this.WindowState = FormWindowState.Minimized;
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

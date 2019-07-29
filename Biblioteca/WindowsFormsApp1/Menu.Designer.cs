@@ -48,10 +48,22 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
+
             this.btnmax = new System.Windows.Forms.PictureBox();
             this.btnRestart = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+
+
+            this.PBcerrar = new System.Windows.Forms.PictureBox();
+            this.PBminimizar = new System.Windows.Forms.PictureBox();
+            this.barraVertical.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
+            this.panelContenedor.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBcerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PBminimizar)).BeginInit();
+
             this.btnMaximo = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -73,11 +85,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmax)).BeginInit();
+
             ((System.ComponentModel.ISupportInitialize)(this.btnRestart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximo)).BeginInit();
             this.panel8.SuspendLayout();
+
             this.SuspendLayout();
             // 
             // barraVertical
@@ -333,7 +347,83 @@
             this.btnmax.TabStop = false;
             this.btnmax.Click += new System.EventHandler(this.pictureBox3_Click_3);
             // 
+
             // btnRestart
+
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(3, 258);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(268, 31);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Guerras";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel4.ForeColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(0, 258);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 31);
+            this.panel4.TabIndex = 7;
+            // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(3, 310);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(268, 31);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "  Ciencia Ficción";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel5.ForeColor = System.Drawing.Color.White;
+            this.panel5.Location = new System.Drawing.Point(0, 310);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 31);
+            this.panel5.TabIndex = 8;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(271, 25);
+            this.panel6.TabIndex = 0;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
+            this.panel7.Controls.Add(this.PBminimizar);
+            this.panel7.Controls.Add(this.PBcerrar);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(931, 25);
+            this.panel7.TabIndex = 0;
+
+            // panel9
+
             // 
             this.btnRestart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestart.Image = ((System.Drawing.Image)(resources.GetObject("btnRestart.Image")));
@@ -392,6 +482,7 @@
             this.panel9.TabIndex = 3;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
+
             // panel2
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -551,6 +642,31 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(10, 22);
             this.panel12.TabIndex = 18;
+
+            // 
+            // PBcerrar
+            // 
+            this.PBcerrar.Image = ((System.Drawing.Image)(resources.GetObject("PBcerrar.Image")));
+            this.PBcerrar.Location = new System.Drawing.Point(902, 0);
+            this.PBcerrar.Name = "PBcerrar";
+            this.PBcerrar.Size = new System.Drawing.Size(26, 25);
+            this.PBcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PBcerrar.TabIndex = 5;
+            this.PBcerrar.TabStop = false;
+            this.PBcerrar.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
+            // PBminimizar
+            // 
+            this.PBminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PBminimizar.Image = ((System.Drawing.Image)(resources.GetObject("PBminimizar.Image")));
+            this.PBminimizar.Location = new System.Drawing.Point(870, 0);
+            this.PBminimizar.Name = "PBminimizar";
+            this.PBminimizar.Size = new System.Drawing.Size(35, 25);
+            this.PBminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PBminimizar.TabIndex = 6;
+            this.PBminimizar.TabStop = false;
+            this.PBminimizar.Click += new System.EventHandler(this.PBminimizar_Click);
+
             // 
             // Menu
             // 
@@ -566,6 +682,14 @@
             this.Name = "Menu";
             this.Text = "Menu";
             this.barraVertical.ResumeLayout(false);
+
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
+            this.panelContenedor.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PBcerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PBminimizar)).EndInit();
+
             this.panelNombreApp.ResumeLayout(false);
             this.panelNombreApp.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -574,11 +698,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnmax)).EndInit();
+
             ((System.ComponentModel.ISupportInitialize)(this.btnRestart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximo)).EndInit();
             this.panel8.ResumeLayout(false);
+
             this.ResumeLayout(false);
 
         }
@@ -607,6 +733,10 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel7;
+
+        private System.Windows.Forms.PictureBox PBcerrar;
+        private System.Windows.Forms.PictureBox PBminimizar;
+
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel barradeTitulos;
         private System.Windows.Forms.Panel panel10;
@@ -615,6 +745,7 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox btnRestart;
         private System.Windows.Forms.PictureBox btnmax;
+
         private System.Windows.Forms.Button btnSalirUsuario;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnHistoria;
@@ -626,5 +757,6 @@
         private System.Windows.Forms.Button btnUsuariosEliminar;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnUsuarios;
+
     }
 }
