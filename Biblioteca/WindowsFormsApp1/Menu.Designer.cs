@@ -36,7 +36,6 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.btnUusariosActualizar = new System.Windows.Forms.Button();
             this.btnUsuariosEliminar = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.btnHistoria = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -86,7 +85,6 @@
             // 
             this.barraVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(150)))), ((int)(((byte)(50)))));
             this.barraVertical.Controls.Add(this.panel8);
-            this.barraVertical.Controls.Add(this.panel6);
             this.barraVertical.Controls.Add(this.btnUsuarios);
             this.barraVertical.Controls.Add(this.btnHistoria);
             this.barraVertical.Controls.Add(this.panel4);
@@ -178,17 +176,6 @@
             this.btnUsuariosEliminar.Text = "Eliminar";
             this.btnUsuariosEliminar.UseVisualStyleBackColor = false;
             this.btnUsuariosEliminar.Click += new System.EventHandler(this.btnUsuariosEliminar_Click);
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(95)))), ((int)(((byte)(20)))));
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.ForeColor = System.Drawing.Color.White;
-            this.panel6.Location = new System.Drawing.Point(0, 457);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(10, 31);
-            this.panel6.TabIndex = 15;
             // 
             // btnUsuarios
             // 
@@ -641,7 +628,6 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Button btnUusariosActualizar;
         private System.Windows.Forms.Button btnUsuariosEliminar;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnUsuarios;
 
     }
