@@ -38,7 +38,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -91,11 +90,7 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-
-            this.panel1.Size = new System.Drawing.Size(213, 373);
-
-            this.panel1.Size = new System.Drawing.Size(177, 330);
-
+            this.panel1.Size = new System.Drawing.Size(177, 373);
             this.panel1.TabIndex = 3;
             // 
             // pictureBox1
@@ -153,29 +148,12 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "LOGIN";
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.FlatAppearance.BorderSize = 0;
-            this.btnRegistrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnRegistrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(191)))), ((int)(((byte)(57)))));
-            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnRegistrar.Location = new System.Drawing.Point(286, 296);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(408, 40);
-            this.btnRegistrar.TabIndex = 9;
-            this.btnRegistrar.Text = "Registrarse";
-            this.btnRegistrar.UseVisualStyleBackColor = true;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(83)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(780, 373);
-            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -208,7 +186,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnRegistrar;
     }
 }
 
