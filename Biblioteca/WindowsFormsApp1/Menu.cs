@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
 
         }
 
-        private void pictureBox1_Click_1(object sender, EventArgs e)
+        private void PictureBox1_Click_1(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
             btnMaximo.Visible = false;
